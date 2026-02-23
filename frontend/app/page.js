@@ -106,7 +106,7 @@ export default function Home() {
           <input
             className={styles.input}
             type="text"
-            placeholder="Add a new task..."
+            placeholder="Add a new task"
             value={newTitle}
             onChange={(e) => setNewTitle(e.target.value)}
           />
